@@ -1,0 +1,18 @@
+media:
+  input: galleria
+  output: /galleria
+content:
+  - name: galleria
+    label: Galleria foto
+    type: file
+    path: galleria.json
+    format: json
+    list: true
+    fields:
+      - name: immagine
+        label: Foto
+        type: image
+        required: true
+      - name: didascalia
+        label: Didascalia (facoltativa)
+        type: string
