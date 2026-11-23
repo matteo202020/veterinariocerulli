@@ -1,0 +1,8 @@
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+/assets/*
+  Cache-Control: public, max-age=604800

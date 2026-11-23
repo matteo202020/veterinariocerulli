@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://veterinariocerulli.it/sitemap.xml
